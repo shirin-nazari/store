@@ -8,6 +8,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" exact />
+        <Route path="/Store" />
+        <Route path="/About" />
+        <Route path="/Services" />
       </Routes>
     </Router>
   );
