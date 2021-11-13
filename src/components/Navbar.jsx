@@ -9,7 +9,7 @@ function Navbar() {
       <Nav>
         <NavLink
           to="/"
-          className="nav_link"
+          className="nav-link"
           style={{
             fontWeight: "bold",
 
@@ -29,7 +29,7 @@ function Navbar() {
           <MenuLi>
             <NavLink
               to="/"
-              className="nav_link"
+              className="nav-link"
               style={{
                 display: "inline",
                 color: "#fff",
@@ -42,7 +42,7 @@ function Navbar() {
           <MenuLi>
             <NavLink
               to="/Store"
-              className="nav_link"
+              className="nav-link"
               style={{
                 display: "inline",
                 color: "#fff",
@@ -55,7 +55,7 @@ function Navbar() {
           <MenuLi>
             <NavLink
               to="/Services"
-              className="nav_link"
+              className="nav-link"
               style={{
                 display: "inline",
                 color: "#fff",
@@ -68,7 +68,11 @@ function Navbar() {
           <MenuLi>
             <NavLink
               to="/About"
-              className="nav_link"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "red",
+              }}
+              className="nav-link"
               style={{
                 display: "inline",
                 color: "#fff",
@@ -90,6 +94,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
   flex-wrap: wrap;
 `;
 const Hamberger = styled.div`
@@ -126,10 +131,16 @@ const MenuLi = styled.li`
   display: inline;
   padding: 1rem 2rem;
   transition: all 0.2s ease-in;
-  &::hover {
+  &:hover {
     color: #b46868;
-    font-weight: 700;
+    position: relative;
+    font-weight: 500;
+    background-color: #b46868;
     font-size: large;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
   }
 `;
 const Icon = styled.i`
