@@ -25,6 +25,7 @@ const Buttons = styled.button`
   background-color: #201e1e;
   border: 1px solid #fff;
   height: 4rem;
+  margin-left: 3px;
   padding: 10px;
   border-radius: 20px;
   cursor: pointer;
@@ -45,8 +46,23 @@ const DivButtons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   width: 100%;
   margin-bottom: 100px;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      height: 3rem;
+      margin-left: 3px;
+      padding: 5px;
+
+      cursor: pointer;
+      width: 9rem;
+      font-size: 1rem;
+    }
+  }
 `;
 
 export default Button;

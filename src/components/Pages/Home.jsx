@@ -20,6 +20,18 @@ const HeaderSection = styled.section`
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
+  @media (max-width: 768px) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    h1 {
+      text-align: center;
+      padding: 150px 50px 50px;
+      font-weight: bolder;
+      font-size: 4rem;
+    }
+  }
 `;
 const H1header = styled.h1`
   text-align: center;
