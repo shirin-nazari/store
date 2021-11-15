@@ -32,14 +32,17 @@ const Buttons = styled.button`
   width: 10rem;
   font-size: 1rem;
   transition: margin-left 0.5s ease-in;
-
+  z-index: 0;
+  outline: none;
+  transition: all 0.3s ease-out;
   &:hover {
+    z-index: 1;
     background-color: #fff;
     border: 2px solid #1a1818;
     font-weight: bold;
     width: 11rem;
     color: #201e1e;
-    transition: margin-left 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
 `;
 const DivButtons = styled.div`

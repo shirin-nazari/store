@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "../Button";
+import Cards from "../Cards";
 import Background from "../images/headerHome2.jpg";
 
 function Home() {
@@ -10,7 +11,9 @@ function Home() {
         <H1header>COSMETIC</H1header>
         <Button />
       </HeaderSection>
-      <section>this is card</section>
+      <section>
+        <Cards />
+      </section>
     </>
   );
 }
