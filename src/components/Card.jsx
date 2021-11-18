@@ -19,7 +19,7 @@ function Card() {
 }
 const Div = styled.div`
   margin: 40px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 `;
 export default Card;
