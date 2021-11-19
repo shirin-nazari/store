@@ -17,8 +17,10 @@ const Div = styled.div`
   padding: 10px;
   width: 280px;
   text-align: center;
-  border: 2px solid #201e1e;
+  border: 2px solid #53535353;
+  box-shadow: 10px 10px 5px #5050504c;
   /* height: 370px; */
+
   height: auto;
 `;
 const Img = styled.img`
