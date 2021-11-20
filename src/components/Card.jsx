@@ -17,8 +17,8 @@ const Div = styled.div`
   padding: 10px;
   width: 280px;
   text-align: center;
-  border: 2px solid #53535353;
-  box-shadow: 10px 10px 5px #5050504c;
+  border: 2px solid #53535337;
+  box-shadow: 10px 10px 15px #5050504c;
   /* height: 370px; */
 
   height: auto;

@@ -28,29 +28,6 @@ function Cards() {
         shades."
         />
       </ArticleCard>
-      <ArticleCard>
-        <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
-        />
-        <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
-        />
-        <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
-        />
-      </ArticleCard>
     </>
   );
 }
