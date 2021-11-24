@@ -11,7 +11,7 @@ function Home() {
         <H1header>COSMETIC</H1header>
         <Button />
       </HeaderSection>
-      <section>
+      <section style={{ width: "1000px", textAlign: "center" }}>
         <Cards />
       </section>
     </>
