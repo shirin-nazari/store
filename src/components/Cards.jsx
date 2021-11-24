@@ -11,12 +11,12 @@ function Cards() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 0,
+    slidesToScroll: 1,
   };
   return (
     <>
       <ArticleCard>
-        {/* <h2>slllll</h2> */}
+        <h2>⋯⋯⋯ Beauty Collection ⋯⋯⋯</h2>
         <Slider {...settings}>
           <Card
             src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
@@ -66,12 +66,9 @@ function Cards() {
   );
 }
 const ArticleCard = styled.article`
-  width: 100%;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
-  width: 100%;
+  text-align: center;
+  margin: 40px;
+  width: 1000px;
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
