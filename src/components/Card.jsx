@@ -5,8 +5,8 @@ function Card(props) {
   return (
     <Div>
       <Img src={props.src} alt="lip stick" />
-      <h2>{props.name}</h2>
-      <h3>{props.price}</h3>
+      <h3>{props.name}</h3>
+      <h4>{props.price}</h4>
       <p>{props.text}</p>
     </Div>
   );
