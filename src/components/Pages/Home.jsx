@@ -11,12 +11,15 @@ function Home() {
         <H1header>COSMETIC</H1header>
         <Button />
       </HeaderSection>
-      <section style={{ width: "1000px", textAlign: "center" }}>
+      <SectionMain>
         <Cards />
-      </section>
+      </SectionMain>
     </>
   );
 }
+const SectionMain = styled.section`
+  width: 1000px;
+`;
 export default Home;
 const HeaderSection = styled.section`
   background-size: cover;
