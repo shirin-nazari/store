@@ -19,6 +19,7 @@ function Home() {
 }
 const SectionMain = styled.section`
   width: 1000px;
+  margin-top: 60px;
 `;
 export default Home;
 const HeaderSection = styled.section`
