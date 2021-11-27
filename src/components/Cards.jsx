@@ -7,7 +7,7 @@ import Slider from "react-slick";
 
 function Cards() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -67,6 +67,16 @@ function Cards() {
 }
 const ArticleCard = styled.article`
   text-align: center;
+  .slick-arrow {
+    background-color: #929292;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+  }
+  .slick-arrow::hover,
+  ::active {
+    background-color: #929292 !important;
+  }
 
   h2 {
     color: #3b3b3b;
