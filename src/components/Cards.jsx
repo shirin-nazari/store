@@ -33,7 +33,7 @@ function Cards() {
         shades."
           />
           <Card
-            src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
+            src="https://388616.smushcdn.com/1873035/wp-content/uploads/2016/11/shutterstock_103290758-1000x675.jpg?lossy=0&strip=1&webp=1"
             name="lip stick"
             price="$21.00"
             text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
