@@ -12,7 +12,7 @@ function Card(props) {
   );
 }
 const Div = styled.div`
-  margin: 40px;
+  /* margin: 40px; */
 
   padding: 10px;
   width: 280px;
