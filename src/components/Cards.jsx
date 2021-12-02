@@ -7,18 +7,18 @@ import Slider from "react-slick";
 
 function Cards() {
   var settings = {
-    dots: false,
-    infinite: true,
+    dots: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
@@ -26,9 +26,9 @@ function Cards() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
@@ -83,10 +83,10 @@ function Cards() {
     </ArticleCard>
   );
 }
-const ArticleCard = styled.article`
+const ArticleCard = styled.div`
   text-align: center;
   .slick-arrow {
-    background-color: #929292;
+    background-color: #494949a6;
     height: 35px;
     width: 35px;
     border-radius: 100px;
@@ -100,10 +100,10 @@ const ArticleCard = styled.article`
     color: #3b3b3b;
   }
   margin: 40px;
-  width: 1000px;
-  @media (max-width: 768px) {
+  /* width: 1000px; */
+  /* @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-  }
+  } */
 `;
 export default Cards;

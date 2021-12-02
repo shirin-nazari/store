@@ -11,19 +11,18 @@ function Home() {
         <H1header>COSMETIC</H1header>
         <Button />
       </HeaderSection>
-      {/* <SectionMain> */}
-      <Cards />
-      {/* </SectionMain> */}
-      {/* <SectionMain> */}
-      <Cards />
-      {/* </SectionMain> */}
+      <SectionMain>
+        <Cards />
+      </SectionMain>
+      <SectionMain>
+        <Cards />
+      </SectionMain>
     </>
   );
 }
-// const SectionMain = styled.section`
-//   /* width: 1000px; */
-//   margin-top: 60px;
-// `;
+const SectionMain = styled.section`
+  margin-top: 60px;
+`;
 export default Home;
 const HeaderSection = styled.section`
   background-size: cover;
