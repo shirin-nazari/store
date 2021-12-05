@@ -22,9 +22,15 @@ const Div = styled.div`
   /* height: 370px; */
 
   height: auto;
+  @media (max-width: 1024px) {
+    width: 200px;
+  }
 `;
 const Img = styled.img`
   width: 250px;
   height: 250px;
+  @media (max-width: 1024px) {
+    width: 150px;
+  }
 `;
 export default Card;

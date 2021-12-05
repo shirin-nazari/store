@@ -21,7 +21,7 @@ function Home() {
   );
 }
 const SectionMain = styled.section`
-  margin-top: 60px;
+  margin: 60px;
 `;
 export default Home;
 const HeaderSection = styled.section`
