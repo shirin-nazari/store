@@ -14,9 +14,6 @@ function Home() {
       <SectionMain>
         <Cards />
       </SectionMain>
-      <SectionMain>
-        <Cards />
-      </SectionMain>
     </>
   );
 }

@@ -85,6 +85,7 @@ function Cards() {
 }
 const ArticleCard = styled.div`
   text-align: center;
+
   .slick-arrow {
     background-color: #494949a6;
     height: 35px;
