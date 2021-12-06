@@ -96,6 +96,9 @@ const Nav = styled.nav`
   align-items: center;
   position: sticky;
   flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 `;
 const Hamberger = styled.div`
   display: none;
