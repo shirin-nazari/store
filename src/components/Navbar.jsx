@@ -138,8 +138,10 @@ const MenuLi = styled.li`
     color: #b46868;
     position: relative;
     font-weight: 500;
+    transition: all 2s background-color;
     background-color: #b46868;
     font-size: large;
+    /* z-index: 999; */
   }
   @media (max-width: 768px) {
     width: 100%;

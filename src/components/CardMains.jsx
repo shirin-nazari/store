@@ -24,6 +24,7 @@ function CardMains() {
 }
 const Div = styled.div`
   display: grid;
+
   grid-template-columns: 30% 30% 30%;
   grid-gap: 2em;
   justify-items: center;

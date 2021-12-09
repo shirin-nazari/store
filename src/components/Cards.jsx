@@ -38,44 +38,41 @@ function Cards() {
       <h2>●•⋯ Beauty Collection ⋯•●</h2>
       <Slider {...settings}>
         <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
+          src="https://www.pngall.com/wp-content/uploads/4/Glossy-Red-Lipstick-PNG-Clipart.png"
           name="lip stick"
           price="$21.00"
           text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
         shades."
         />
         <Card
-          src="https://cdn.shopify.com/s/files/1/0127/2332/products/Fullest-Mascara_Open_White-background_640x.jpg?v=1627925309"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
+          src="https://ae01.alicdn.com/kf/HTB1yRDTRXXXXXa7apXXq6xXFXXXy/bb.jpg"
+          name="Cream BB"
+          price="$19.47"
+          text=" OneSpring Roller Natural Face Cream Facial Cream BB Cream Face Concealer Dark Spot Foundation "
+        />
+        <Card
+          src="https://pngimg.com/uploads/mascara/mascara_PNG70.png"
+          name="IN EXTREME DIMENSION 3D BLACK LASH MASCARA
+"
+          price="$25.00"
+          text="A carbon black mascara with a large molded brush."
+        />
+        <Card
+          src="https://www.seekpng.com/png/detail/328-3282821_professional-selection-eye-shadow-palette-makeup-factory-eyeshadow.png"
+          name="Eye Shadow"
+          price="$11.57"
+          text="8 Colors Matte Natural Eye Shadow Palette Eye Shadow Nude Eyelid Waterproof Makeup"
         />
         <Card
           src="https://388616.smushcdn.com/1873035/wp-content/uploads/2016/11/shutterstock_103290758-1000x675.jpg?lossy=0&strip=1&webp=1"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
+          name="30g Long Lasting DD Cream"
+          price="$10.57"
+          text="Make UP Korean Cosmetics Whitening Concealer Upgrade BB Cream Maquiagem"
         />
         <Card
           src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
           name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
-        />
-        <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
-          name="lip stick"
-          price="$21.00"
-          text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
-        shades."
-        />
-        <Card
-          src="https://www.sephora.com/productimages/sku/s2419711-main-zoom.jpg?imwidth=315"
-          name="lip stick"
-          price="$21.00"
+          price="$10.00"
           text=" A stacked deck of five holiday-exclusive Matte, Cremesheen and Frost
         shades."
         />
@@ -87,14 +84,14 @@ const ArticleCard = styled.div`
   text-align: center;
 
   .slick-arrow {
-    background-color: #494949a6;
+    background-color: #494949b3;
     height: 35px;
     width: 35px;
     border-radius: 100px;
   }
   .slick-arrow::hover,
   ::active {
-    background-color: #929292 !important;
+    background-color: #727272 !important;
   }
 
   h2 {
