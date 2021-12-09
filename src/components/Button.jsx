@@ -32,6 +32,9 @@ const Buttons = styled.button`
   width: 10rem;
   font-size: 1rem;
   transition: margin-left 0.5s ease-in;
+  i {
+    padding: 5px;
+  }
   z-index: 0;
   outline: none;
   transition: all 0.3s ease-out;

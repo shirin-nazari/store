@@ -26,8 +26,8 @@ export default App;
 const Container = styled.div`
   margin: 0;
   padding: 0;
-  /* background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
   height: 100vh;
-  /* background-size: cover;
+  /* background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-size: cover;
   background-repeat: no-repeat; */
 `;
