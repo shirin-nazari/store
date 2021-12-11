@@ -5,7 +5,7 @@ import styled from "styled-components";
 function Card(props) {
   return (
     <Div>
-      <Link to="/Store">
+      <Link to="/Store" style={{ textDecoration: "none" }}>
         <Img src={props.src} alt="lip stick" />
         <h3>{props.name}</h3>
         <h4>{props.price}</h4>
@@ -26,15 +26,12 @@ const Div = styled.div`
 
   p {
     color: #0c0b0b;
-    text-decoration: none !important;
   }
   h3 {
     color: #0c0b0b;
-    text-decoration: none !important;
   }
   h4 {
     color: #0c0b0b;
-    text-decoration: none !important;
   }
   height: auto;
   @media (max-width: 1024px) {

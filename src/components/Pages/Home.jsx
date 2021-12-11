@@ -4,6 +4,7 @@ import Button from "../Button";
 import CardMains from "../CardMains";
 import Cards from "../Cards";
 import Background from "../images/headerHome2.jpg";
+import SectionFooter from "../SectionFooter";
 
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
         <Cards />
       </SectionMain>
       <CardMains />
+      <section>
+        <SectionFooter />
+      </section>
     </>
   );
 }
