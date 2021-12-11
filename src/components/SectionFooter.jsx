@@ -1,19 +1,42 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-
+import styled from "styled-components";
+import image from "./images/kisspng-beauty-parlour-cosmetics-food-samosa-5af4fdf389fc62.png";
+import notTested from "./images/not-tested.png";
 function SectionFooter() {
   return (
     <div>
-      <article>
+      <Articles>
         <span>
           <h2>Kind To Skin & Planet</h2>
           We've been making products that respect your skin and the planet for a
           full-circle clean—from source to disposal—since 1984.
         </span>
-        {/* <img src="./images/kisspng-beauty-parlour-cosmetics-food-samosa-5af4fdf389fc62.png" /> */}
-      </article>
+        <Images src={image} alt="green-comstic" />
+        <Images src={notTested} alt="not tested" />
+        <Images
+          src="https://cdn-icons-png.flaticon.com/512/3778/3778743.png"
+          alt="non-toxic "
+        />
+      </Articles>
     </div>
   );
 }
+const Images = styled.img`
+  width: 100px;
+  height: 100px;
+`;
+const Articles = styled.article`
+  /* display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  grid-gap: 2em; */
 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px;
+  span {
+    width: 40%;
+  }
+`;
 export default SectionFooter;
