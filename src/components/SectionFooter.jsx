@@ -4,21 +4,19 @@ import image from "./images/kisspng-beauty-parlour-cosmetics-food-samosa-5af4fdf
 import notTested from "./images/not-tested.png";
 function SectionFooter() {
   return (
-    <div>
-      <Articles>
-        <span>
-          <h2>Kind To Skin & Planet</h2>
-          We've been making products that respect your skin and the planet for a
-          full-circle clean—from source to disposal—since 1984.
-        </span>
-        <Images src={image} alt="green-comstic" />
-        <Images src={notTested} alt="not tested" />
-        <Images
-          src="https://cdn-icons-png.flaticon.com/512/3778/3778743.png"
-          alt="non-toxic "
-        />
-      </Articles>
-    </div>
+    <Articles>
+      <span>
+        <h2>Kind To Skin & Planet</h2>
+        We've been making products that respect your skin and the planet for a
+        full-circle clean—from source to disposal—since 1984.
+      </span>
+      <Images src={image} alt="green-comstic" />
+      <Images src={notTested} alt="not tested" />
+      <Images
+        src="https://cdn-icons-png.flaticon.com/512/3778/3778743.png"
+        alt="non-toxic "
+      />
+    </Articles>
   );
 }
 const Images = styled.img`
@@ -32,6 +30,7 @@ const Articles = styled.article`
 
   display: flex;
   flex-direction: row;
+
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 100px;

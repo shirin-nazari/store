@@ -98,10 +98,11 @@ const ArticleCard = styled.div`
     color: #3b3b3b;
   }
   margin: 40px;
-  /* width: 1000px; */
-  /* @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-  } */
+  @media (max-width: 1024px) {
+    margin: 10px;
+  }
+  @media (max-width: 768px) {
+    margin: 10px;
+  }
 `;
 export default Cards;
