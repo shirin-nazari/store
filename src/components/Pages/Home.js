@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import CardMains from "../CardMains";
 import Cards from "../Cards";
+import Footer from "../Footer";
 import Background from "../images/headerHome2.jpg";
 import SectionFooter from "../SectionFooter";
 
@@ -20,11 +21,18 @@ function Home() {
       <section>
         <SectionFooter />
       </section>
+      <FooterMain>
+        <Footer />
+      </FooterMain>
     </>
   );
 }
 const SectionMain = styled.section`
   margin: 60px;
+`;
+const FooterMain = styled.footer`
+  background-color: #201e1e;
+  color: #fff;
 `;
 export default Home;
 const HeaderSection = styled.section`

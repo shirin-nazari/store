@@ -30,7 +30,6 @@ const Articles = styled.article`
 
   display: flex;
   flex-direction: row;
-
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 100px;
