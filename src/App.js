@@ -27,7 +27,5 @@ const Container = styled.div`
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  font-family: "EB Garamond", serif;
 `;
