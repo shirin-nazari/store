@@ -5,7 +5,7 @@ function CardMains() {
   return (
     <Div>
       <CardMain
-        src="https://ertclinic.ca/wp-content/uploads/2020/05/5.5-skincare.jpeg"
+        src="https://img.ti-media.net/wp/uploads/sites/46/2020/04/facialmassagemain-920x518.jpg"
         alt="massage"
         text="massage is very good "
       />
