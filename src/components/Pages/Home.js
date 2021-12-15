@@ -33,6 +33,9 @@ const SectionMain = styled.section`
 const FooterMain = styled.footer`
   background-color: #201e1e;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 `;
 export default Home;
 const HeaderSection = styled.section`
