@@ -35,6 +35,7 @@ const Articles = styled.article`
   margin-top: 100px;
   margin-right: 100px;
   margin-left: 100px;
+  margin-bottom: 5px;
   span {
     width: 40%;
   }
