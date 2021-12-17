@@ -30,6 +30,10 @@ function Navbar() {
             <NavLink
               to="/"
               className="nav-link"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "pink",
+              }}
               style={{
                 display: "inline",
                 color: "#fff",
@@ -43,6 +47,10 @@ function Navbar() {
             <NavLink
               to="/Store"
               className="nav-link"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "pink",
+              }}
               style={{
                 display: "inline",
                 color: "#fff",
@@ -56,6 +64,10 @@ function Navbar() {
             <NavLink
               to="/Services"
               className="nav-link"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "pink",
+              }}
               style={{
                 display: "inline",
                 color: "#fff",
@@ -70,7 +82,7 @@ function Navbar() {
               to="/About"
               activeStyle={{
                 fontWeight: "bold",
-                color: "red",
+                color: "pink",
               }}
               className="nav-link"
               style={{

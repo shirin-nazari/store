@@ -84,10 +84,13 @@ const ArticleCard = styled.div`
   text-align: center;
 
   .slick-arrow {
-    background-color: #494949b3;
-    height: 35px;
+    background: #191919;
+
+    height: 34px;
     width: 35px;
     border-radius: 100px;
+    margin: -30px;
+    text-align: center;
   }
   .slick-arrow::hover,
   ::active {
