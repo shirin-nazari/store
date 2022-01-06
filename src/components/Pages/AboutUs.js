@@ -4,9 +4,7 @@ import Background from "../images/fashion-accessories-makeup-products-jewelry-ha
 
 function AboutUs() {
   return (
-    <MainDiv style={{ backgroundImage: "url(" + Background + ")" }}>
-      gfjaklskjsaksks
-    </MainDiv>
+    <MainDiv style={{ backgroundImage: "url(" + Background + ")" }}></MainDiv>
   );
 }
 const MainDiv = styled.div`
