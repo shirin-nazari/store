@@ -100,6 +100,7 @@ const ArticleCard = styled.div`
   h2 {
     color: #3b3b3b;
   }
+
   margin: 40px;
   @media (max-width: 1024px) {
     margin: 10px;
