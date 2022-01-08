@@ -22,6 +22,7 @@ const Div = styled.div`
   text-align: center;
   border: 2px solid #53535337;
   box-shadow: 5px 5px 5px #5050504c;
+
   /* height: 370px; */
 
   p {
