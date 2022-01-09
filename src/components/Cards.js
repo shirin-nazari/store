@@ -45,7 +45,7 @@ function Cards() {
         shades."
         />
         <Card
-          src="https://ae01.alicdn.com/kf/HTB1yRDTRXXXXXa7apXXq6xXFXXXy/bb.jpg"
+          src="https://s3.envato.com/files/256468593/111118%20(3).jpg"
           name="Cream BB"
           price="$19.47"
           text=" OneSpring Roller Natural Face Cream Facial Cream BB Cream Face Concealer Dark Spot Foundation "
@@ -82,7 +82,10 @@ function Cards() {
 }
 const ArticleCard = styled.div`
   text-align: center;
-
+  &:hover {
+    transition: all 1s ease-out;
+    color: #edede;
+  }
   .slick-arrow {
     background: #191919;
 
